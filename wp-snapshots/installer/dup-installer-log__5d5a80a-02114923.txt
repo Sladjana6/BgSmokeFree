@@ -1,0 +1,1951 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:03:15
+* VERSION: 1.3.24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.18                                |7.2.24
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2019-12-02 11:49:23
+WP VERSION__________: 5.2.4
+DUP VERSION_________: 1.3.24
+DB__________________: 10.3.16
+DB TABLES___________: 172
+DB ROWS_____________: 6,601
+DB FILE SIZE________: 18.95MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.24 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.2.24
+DOC ROOT____________: "C:/xampp/htdocs/BgSmokeFree"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/BgSmokeFree/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20191202_bgsmokefree_5d5a80a68bb9bdc27798_20191202114923_archive.zip"
+SIZE________________: 165.74MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 15072
+    [filename] => C:\xampp\htdocs\BgSmokeFree\20191202_bgsmokefree_5d5a80a68bb9bdc27798_20191202114923_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2019-12-02 13:03:24
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 01:03:24 - RUNTIME: 8.9246 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 01:03:53
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.8 -- Build Server: 10.3.16
+FILE SIZE:	dup-database__5d5a80a-02114923.sql (9.65MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/BgSmokeFree/dup-installer/dup-installer-data__5d5a80a-02114923.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	7195
+
+store_locator_country: (241)
+store_locator_state: (51)
+store_locator_transactions: (0)
+vosl_people: (0)
+wp_asl_categories: (14)
+wp_asl_configs: (14)
+wp_asl_countries: (239)
+wp_asl_markers: (0)
+wp_asl_storelogos: (1)
+wp_asl_stores: (27)
+wp_asl_stores_categories: (28)
+wp_ays_gallery: (6)
+wp_bwg_album: (0)
+wp_bwg_album_gallery: (0)
+wp_bwg_file_paths: (0)
+wp_bwg_gallery: (0)
+wp_bwg_image: (0)
+wp_bwg_image_comment: (0)
+wp_bwg_image_rate: (0)
+wp_bwg_image_tag: (0)
+wp_bwg_shortcode: (0)
+wp_bwg_theme: (2)
+wp_cf_form_entries: (0)
+wp_cf_form_entry_meta: (0)
+wp_cf_form_entry_values: (0)
+wp_cf_forms: (2)
+wp_cf_pro_messages: (0)
+wp_cf_queue_failures: (0)
+wp_cf_queue_jobs: (0)
+wp_cfs_contacts: (0)
+wp_cfs_countries: (240)
+wp_cfs_forms: (11)
+wp_cfs_membership_presets: (1)
+wp_cfs_statistics: (0)
+wp_commentmeta: (0)
+wp_comments: (2)
+wp_contactformmaker: (10)
+wp_contactformmaker_blocked: (0)
+wp_contactformmaker_submits: (0)
+wp_contactformmaker_themes: (37)
+wp_contactformmaker_views: (9)
+wp_create_map: (2)
+wp_duplicator_packages: (0)
+wp_finaltiles_gallery: (1)
+wp_finaltiles_gallery_images: (4)
+wp_frm_fields: (3)
+wp_frm_forms: (1)
+wp_frm_item_metas: (0)
+wp_frm_items: (0)
+wp_gg_attributes: (0)
+wp_gg_galleries: (1)
+wp_gg_galleries_resources: (2)
+wp_gg_photos: (2)
+wp_gg_settings_sets: (1)
+wp_gg_tags: (0)
+wp_gmedia: (0)
+wp_gmedia_log: (0)
+wp_gmedia_meta: (0)
+wp_gmedia_term: (0)
+wp_gmedia_term_meta: (0)
+wp_gmedia_term_relationships: (0)
+wp_gmp_icons: (47)
+wp_gmp_maps: (4)
+wp_gmp_marker_groups: (2)
+wp_gmp_marker_groups_relation: (8)
+wp_gmp_markers: (7)
+wp_gmp_membership_presets: (4)
+wp_gmp_modules: (14)
+wp_gmp_modules_type: (4)
+wp_gmp_options: (2)
+wp_gmp_options_categories: (4)
+wp_gmp_usage_stat: (0)
+wp_gmwd_circles: (0)
+wp_gmwd_maps: (2)
+wp_gmwd_mapstyles: (0)
+wp_gmwd_markercategories: (0)
+wp_gmwd_markers: (8)
+wp_gmwd_options: (12)
+wp_gmwd_polygons: (2)
+wp_gmwd_polylines: (1)
+wp_gmwd_rectangles: (0)
+wp_gmwd_shortcodes: (2)
+wp_gmwd_themes: (1)
+wp_group_map: (2)
+wp_links: (0)
+wp_map_locations: (3)
+wp_mapmarker_api: (1)
+wp_mapmarker_marker: (1)
+wp_mapmarker_option: (2)
+wp_mappress_maps: (0)
+wp_mappress_posts: (0)
+wp_nf3_action_meta: (90)
+wp_nf3_actions: (4)
+wp_nf3_chunks: (0)
+wp_nf3_field_meta: (284)
+wp_nf3_fields: (4)
+wp_nf3_form_meta: (113)
+wp_nf3_forms: (1)
+wp_nf3_object_meta: (0)
+wp_nf3_objects: (0)
+wp_nf3_relationships: (0)
+wp_nf3_upgrades: (1)
+wp_ngg_album: (0)
+wp_ngg_gallery: (1)
+wp_ngg_pictures: (4)
+wp_options: (585)
+wp_photoblocks: (1)
+wp_postmeta: (3719)
+wp_posts: (609)
+wp_rednao_smart_forms_entry: (0)
+wp_rednao_smart_forms_entry_detail: (0)
+wp_rednao_smart_forms_table_name: (0)
+wp_rednao_smart_forms_uploaded_files: (0)
+wp_rich_web_photo_slider_instal: (5)
+wp_rich_web_photo_slider_instal_video: (5)
+wp_rich_web_photo_slider_manager: (1)
+wp_rich_web_slider_effect1: (2)
+wp_rich_web_slider_effect10: (2)
+wp_rich_web_slider_effect2: (2)
+wp_rich_web_slider_effect3: (2)
+wp_rich_web_slider_effect4: (2)
+wp_rich_web_slider_effect5: (2)
+wp_rich_web_slider_effect6: (2)
+wp_rich_web_slider_effect7: (2)
+wp_rich_web_slider_effect8: (2)
+wp_rich_web_slider_effect9: (2)
+wp_rich_web_slider_effects_data: (20)
+wp_rich_web_slider_font_family: (125)
+wp_rich_web_slider_id: (1)
+wp_rmp_analytics: (9)
+wp_term_relationships: (73)
+wp_term_taxonomy: (24)
+wp_termmeta: (5)
+wp_terms: (24)
+wp_ufbl_entries: (0)
+wp_ufbl_forms: (1)
+wp_ums_icons: (47)
+wp_ums_maps: (0)
+wp_ums_marker_groups: (0)
+wp_ums_marker_groups_relation: (0)
+wp_ums_markers: (0)
+wp_ums_modules: (12)
+wp_ums_modules_type: (4)
+wp_ums_options: (2)
+wp_ums_options_categories: (4)
+wp_ums_usage_stat: (0)
+wp_usermeta: (41)
+wp_users: (1)
+wp_vosl_custom_fields: (6)
+wp_vosl_setting: (37)
+wp_vosl_store_custom_fields: (6)
+wp_vosl_tags: (0)
+wp_vosl_tags_locations: (0)
+wp_vostore_locator: (1)
+wp_wc_avatars_cache: (0)
+wp_wc_comments_subscription: (0)
+wp_wc_follow_users: (0)
+wp_wc_phrases: (0)
+wp_wc_users_voted: (0)
+wp_wdslayer: (0)
+wp_wdsslide: (3)
+wp_wdsslider: (1)
+wp_weforms_entries: (0)
+wp_weforms_entrymeta: (0)
+wp_wpgmza: (1)
+wp_wpgmza_categories: (0)
+wp_wpgmza_category_maps: (0)
+wp_wpgmza_circles: (0)
+wp_wpgmza_maps: (1)
+wp_wpgmza_polygon: (0)
+wp_wpgmza_polylines: (0)
+wp_wpgmza_rectangles: (0)
+Removed '39' cache/transient rows
+
+INSERT DATA RUNTIME: 2.6876 sec.
+STEP-2 COMPLETE @ 01:03:55 - RUNTIME: 2.7229 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:04:11
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "BgSmokeFree"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/storage/ssd1/084/10485084/public_html/"
+path_new______________: "C:/xampp/htdocs/BgSmokeFree/"
+siteurl_______________: "http://localhost/BgSmokeFree"
+url_old_______________: "https://011bgsmokefree.000webhostapp.com"
+url_new_______________: "http://localhost/BgSmokeFree"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "bgsmokefree"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "store_locator_country"___________________________[ROWS:   241][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "store_locator_state"_____________________________[ROWS:    51][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "store_locator_transactions"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "vosl_people"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_asl_categories"_______________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_asl_configs"__________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_asl_countries"________________________________[ROWS:   239][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_asl_markers"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_asl_storelogos"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_asl_stores"___________________________________[ROWS:    27][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_asl_stores_categories"________________________[ROWS:    28][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_ays_gallery"__________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_bwg_album"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_album_gallery"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_file_paths"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_gallery"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_image"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_image_comment"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_image_rate"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_image_tag"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_shortcode"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bwg_theme"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_cf_form_entries"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cf_form_entry_meta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cf_form_entry_values"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cf_forms"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_cf_pro_messages"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cf_queue_failures"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cf_queue_jobs"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cfs_contacts"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cfs_countries"________________________________[ROWS:   240][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_cfs_forms"____________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_cfs_membership_presets"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_cfs_statistics"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_contactformmaker"_____________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_contactformmaker_blocked"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_contactformmaker_submits"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_contactformmaker_themes"______________________[ROWS:    37][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_contactformmaker_views"_______________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_create_map"___________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_finaltiles_gallery"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_finaltiles_gallery_images"____________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_frm_fields"___________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_frm_forms"____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_frm_item_metas"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_frm_items"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gg_attributes"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gg_galleries"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gg_galleries_resources"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gg_photos"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gg_settings_sets"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gg_tags"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gmedia"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gmedia_log"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gmedia_meta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gmedia_term"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gmedia_term_meta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gmedia_term_relationships"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gmp_icons"____________________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmp_maps"_____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmp_marker_groups"____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmp_marker_groups_relation"___________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmp_markers"__________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmp_membership_presets"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmp_modules"__________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmp_modules_type"_____________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmp_options"__________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmp_options_categories"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmp_usage_stat"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gmwd_circles"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gmwd_maps"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmwd_mapstyles"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gmwd_markercategories"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gmwd_markers"_________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmwd_options"_________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmwd_polygons"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmwd_polylines"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmwd_rectangles"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gmwd_shortcodes"______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_gmwd_themes"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_group_map"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_map_locations"________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_mapmarker_api"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_mapmarker_marker"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_mapmarker_option"_____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_mappress_maps"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mappress_posts"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_action_meta"______________________________[ROWS:    90][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_nf3_actions"__________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_nf3_chunks"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_field_meta"_______________________________[ROWS:   284][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_nf3_fields"___________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_nf3_form_meta"________________________________[ROWS:   113][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_nf3_forms"____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_nf3_object_meta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_objects"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_relationships"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nf3_upgrades"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_ngg_album"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ngg_gallery"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_ngg_pictures"_________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   585][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_photoblocks"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  3719][PG:   2][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   609][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rednao_smart_forms_entry"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rednao_smart_forms_entry_detail"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rednao_smart_forms_table_name"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rednao_smart_forms_uploaded_files"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_rich_web_photo_slider_instal"_________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_photo_slider_instal_video"___________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_photo_slider_manager"________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_slider_effect1"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_slider_effect10"_____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_slider_effect2"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_slider_effect3"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_slider_effect4"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_slider_effect5"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_slider_effect6"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_slider_effect7"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_slider_effect8"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_slider_effect9"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_slider_effects_data"_________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_slider_font_family"__________________[ROWS:   125][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rich_web_slider_id"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_rmp_analytics"________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    73][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_ufbl_entries"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ufbl_forms"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_ums_icons"____________________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_ums_maps"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ums_marker_groups"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ums_marker_groups_relation"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ums_markers"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_ums_modules"__________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_ums_modules_type"_____________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_ums_options"__________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_ums_options_categories"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_ums_usage_stat"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    41][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_vosl_custom_fields"___________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_vosl_setting"_________________________________[ROWS:    37][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_vosl_store_custom_fields"_____________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_vosl_tags"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vosl_tags_locations"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vostore_locator"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_wc_avatars_cache"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_comments_subscription"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_follow_users"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_phrases"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_users_voted"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wdslayer"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wdsslide"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_wdsslider"____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_weforms_entries"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_weforms_entrymeta"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpgmza"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_wpgmza_categories"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpgmza_category_maps"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpgmza_circles"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpgmza_maps"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/storage/ssd1/084/10485084/public_html/" =========> "C:/xampp/htdocs/BgSmokeFree/"
+	SEARCH  2:"\/storage\/ssd1\/084\/10485084\/public_html\/" ===> "C:\/xampp\/htdocs\/BgSmokeFree\/"
+	SEARCH  3:"%2Fstorage%2Fssd1%2F084%2F10485084%2Fpublic_html%2F" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree%2F"
+	SEARCH  4:"\storage\ssd1\084\10485084\public_html" ==========> "C:/xampp/htdocs/BgSmokeFree"
+	SEARCH  5:"\\storage\\ssd1\\084\\10485084\\public_html" =====> "C:\/xampp\/htdocs\/BgSmokeFree"
+	SEARCH  6:"%5Cstorage%5Cssd1%5C084%5C10485084%5Cpublic_html" => "C%3A%2Fxampp%2Fhtdocs%2FBgSmokeFree"
+	SEARCH  7:"//011bgsmokefree.000webhostapp.com" ==============> "//localhost/BgSmokeFree"
+	SEARCH  8:"\/\/011bgsmokefree.000webhostapp.com" ============> "\/\/localhost\/BgSmokeFree"
+	SEARCH  9:"%2F%2F011bgsmokefree.000webhostapp.com" ==========> "%2F%2Flocalhost%2FBgSmokeFree"
+	SEARCH 10:"https://localhost/BgSmokeFree" ===================> "http://localhost/BgSmokeFree"
+	SEARCH 11:"https:\/\/localhost\/BgSmokeFree" ================> "http:\/\/localhost\/BgSmokeFree"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FBgSmokeFree" ===========> "http%3A%2F%2Flocalhost%2FBgSmokeFree"
+
+EVALUATE TABLE: "wp_wpgmza_polygon"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpgmza_polylines"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpgmza_rectangles"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:172 	|	 Rows:6981 	|	 Cells:42554 
+UPDATED:	Tables:14 	|	 Rows:897 	|	 Cells:1162 
+ERRORS:		0 
+RUNTIME:	1.363400 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""bgsmokefree""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:04:12 - RUNTIME: 1.3930 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

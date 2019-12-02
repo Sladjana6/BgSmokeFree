@@ -1,0 +1,30 @@
+select.ays_gpg_block_select {
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+div.ays_gpg_block_select {
+    width: 70%;
+    margin: 0;
+}
+
+.ays_gpg_block_container {
+    box-sizing: border-box;
+    display: flex;
+}
+.svg_shortcode { 
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    color: #666;
+} 
+
+.ays_gpg_button_container {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    vertical-align: middle;
+    padding-top: 1px;
+}

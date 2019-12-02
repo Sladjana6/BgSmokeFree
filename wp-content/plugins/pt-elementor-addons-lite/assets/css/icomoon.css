@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'pt-icomoon';
+    src:    url('fonts/icomoon/icomoon.eot?bh4obs');
+    src:    url('fonts/icomoon/icomoon.eot?bh4obs#iefix') format('embedded-opentype'),
+        url('fonts/icomoon/icomoon.ttf?bh4obs') format('truetype'),
+        url('fonts/icomoon/icomoon.woff?bh4obs') format('woff'),
+        url('fonts/icomoon/icomoon.svg?bh4obs#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="pt-icon-"], [class*=" pt-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'pt-icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.pt-icon-fit-to:before {
+    content: "\e916";
+    }
+.pt-icon-full-screen:before {
+    content: "\e917";
+    }
+.pt-icon-arrow-left2:before {
+    content: "\e918";
+    }
+.pt-icon-arrow-left3:before {
+    content: "\e919";
+    }
+.pt-icon-arrow-right2:before {
+    content: "\e91a";
+    }
+.pt-icon-arrow-right3:before {
+    content: "\e91b";
+    }
+.pt-icon-start:before {
+    content: "\e91c";
+    }
+.pt-icon-close:before {
+    content: "\e911";
+    }
+.pt-icon-menu:before {
+    content: "\e914";
+    }
+.pt-icon-menu-2:before {
+    content: "\e915";
+    }
+.pt-icon-email:before {
+    content: "\e910";
+    }
+.pt-icon-plus:before {
+    content: "\e912";
+    }
+.pt-icon-arrow-right-toggle:before {
+    content: "\e913";
+    }
+.pt-icon-arrow-left:before {
+    content: "\e900";
+    }
+.pt-icon-arrow-right:before {
+    content: "\e901";
+    }
+.pt-icon-aim:before {
+    content: "\e902";
+    }
+.pt-icon-behance:before {
+    content: "\e903";
+    }
+.pt-icon-dribbble:before {
+    content: "\e904";
+    }
+.pt-icon-facebook:before {
+    content: "\e905";
+    }
+.pt-icon-flickr:before {
+    content: "\e906";
+    }
+.pt-icon-googleplus:before {
+    content: "\e907";
+    }
+.pt-icon-linkedin:before {
+    content: "\e908";
+    }
+.pt-icon-pinterest:before {
+    content: "\e909";
+    }
+.pt-icon-skype:before {
+    content: "\e90a";
+    }
+.pt-icon-twitter:before {
+    content: "\e90b";
+    }
+.pt-icon-vimeo:before {
+    content: "\e90c";
+    }
+.pt-icon-zerply:before {
+    content: "\e90d";
+    }
+.pt-icon-quote:before {
+    content: "\e90e";
+    }
+.pt-icon-video-play:before {
+    content: "\e90f";
+    }
+.pt-icon-instagram:before {
+    content: "\ea92";
+    }

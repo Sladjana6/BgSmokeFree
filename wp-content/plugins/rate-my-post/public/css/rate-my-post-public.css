@@ -1,0 +1,356 @@
+/* Main Container */
+.rmp-main {
+  text-align: center;
+}
+
+.rmp-main-title {
+  margin: 5px;
+}
+
+.rmp-main-subtitle {
+  margin: 5px;
+}
+
+ul#rmp-stars {
+  margin: 10px;
+}
+
+ul#rmp-stars li {
+  margin: 0;
+  padding: 0;
+}
+
+.feedback-subview label {
+  font-weight: normal;
+}
+
+/* Rating Widget */
+.rmp-main #voting-results, .rmp-main #thank-you-msg, .rmp-main #descriptive-rating {
+  margin-bottom: 10px;
+}
+
+#descriptive-rating {
+  display: none;
+}
+
+/*Rating stars unordered list*/
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+
+/*Rating stars list item*/
+.rating-stars ul > li.star {
+  display:inline-block;
+  margin-left: 0px;
+}
+
+/*Rating stars - fontawesome icons*/
+.rating-stars ul > li.star > i.fa {
+  font-size:2.5em;
+  color:#ccc;
+  cursor: pointer;
+}
+
+/* Half Star/Icon  */
+.half-icon-highlight i {
+  background: linear-gradient(to right, #ffe699 50%,#ccc 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Hover style of the rating stars - media rule of android and iOS */
+@media (hover: hover) {
+  .rating-stars ul > li.star.hover > i.fa {
+    color:#FFCC36;
+  }
+}
+
+/*Results in rating widget - color the stars with average rating*/
+.rating-stars ul > li.star.widget-stars-highlight > i.fa {
+  color:#ffe699;
+}
+
+/* Voted color of stars - on star click */
+.rating-stars ul > li.star.selected > i.fa {
+  color:#FF912C;
+}
+
+/*hover color overrides average rating color - media rule of android and iOS */
+@media (hover: hover) {
+  .rating-stars ul > li.star.widget-stars-highlight.hover > i.fa {
+    color:#FFCC36;
+  }
+}
+
+/*hover color overrides half stars/icons as a part of average rating - media rule of android and iOS */
+@media (hover: hover) {
+  .rating-stars ul > li.star.half-icon-highlight.hover > i.fa {
+    background: #FFCC36;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/*voted color overrides average rating color */
+.rating-stars ul > li.star.widget-stars-highlight.selected > i.fa {
+  color:#FF912C;
+}
+
+/*voted color overrides half stars/icons as a part of average rating  */
+.rating-stars ul > li.star.half-icon-highlight.selected > i.fa {
+  background: #FF912C;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#vote-alert, #feedback-alert {
+  color: red;
+}
+
+#no-vote {
+  display: none;
+}
+
+/*Submit rating button for touch devices*/
+#prevent-accidental-button {
+  background-color: #f3b90f;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+/*Social Widget*/
+
+.rmp-social-view {
+  display: none;
+}
+
+.rmp-social-view .social-icons .rmp-social-icon {
+   padding: 20px;
+   font-size: 30px;
+   width: 70px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+   border-radius: 50%;
+   -webkit-transition-property: none;
+   -moz-transition-property: none;
+   -o-transition-property: none;
+   transition-property: none;
+   -webkit-box-shadow: none;
+	 -moz-box-shadow: none;
+	 box-shadow: none;
+   font-family: FontAwesome;
+}
+
+.social-icons .rmp-social-icon:hover {
+    -webkit-filter: contrast(140%); /* Chrome, Safari, Opera */
+    filter: contrast(140%);
+    color: white;
+    -webkit-transition-property: none;
+    -moz-transition-property: none;
+    -o-transition-property: none;
+    transition-property: none;
+    -webkit-box-shadow: none;
+	  -moz-box-shadow: none;
+	  box-shadow: none;
+}
+
+.fa-facebook.rmp-social-icon {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-reddit.rmp-social-icon {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-youtube.rmp-social-icon {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-pinterest.rmp-social-icon {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-flickr.rmp-social-icon {
+  background: #f40083;
+  color: white;
+}
+
+.fa-instagram.rmp-social-icon {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter.rmp-social-icon {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin.rmp-social-icon {
+  background: #007bb5;
+  color: white;
+}
+
+.rmp-social-icon:hover {
+    color: white;
+}
+
+.rmp-social-icon:visited {
+    color: white;
+}
+
+.rmp-social-icon:active {
+    color: white;
+}
+
+.rmp-social-icon:focus {
+    color: white;
+}
+
+/*Feedback Widget*/
+
+.rmp-feedback-view {
+  display: none;
+}
+
+.feedback-sent {
+  display: none;
+}
+
+.rmp-feedback-button-div {
+  margin-top: 10px;
+}
+
+.rmp-text-area {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 250px;
+}
+
+/*Results Widget*/
+
+.rmp-results .star-result .fa-star {
+  color: #ccc;
+  margin-left: -7px;
+}
+
+.rmp-results .star-result .fa {
+  color: #ccc;
+}
+
+.rmp-results .star-result .fa.star-highlight {
+  color:#FF912C;
+}
+
+.rmp-results .star-result .fa.star-half-highlight {
+  background: linear-gradient(to right, #FF912C 50%,#ccc 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rmp-spacer {
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.rmp-results .rmp-column {
+    float: left;
+    margin-left: 5px;
+}
+
+.rmp-results .rmp-no-display {
+  display: none;
+}
+
+/* Ratings on category pages*/
+
+.rmp-archive-results {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.rmp-archive-results .fa {
+  color: #ccc;
+  vertical-align: top;
+}
+
+.rmp-archive-results .fa-star {
+  margin-left: -3px;
+}
+
+.rmp-archive-results span {
+  vertical-align: top;
+  font-size: 12px;
+  display: inline-block;
+  line-height: 100%;
+}
+
+.rmp-archive-results .star-highlight {
+  color: #FF912C;
+}
+
+.rmp-archive-results .star-half-highlight {
+  color: #FF912C;
+  background: -webkit-linear-gradient(left, #FF912C 50%,#ccc 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Top Rated post Widget */
+
+.rmp-tr-posts__star-rating {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.rmp-tr-posts__star-rating .fa {
+  color: #ccc;
+}
+
+.rmp-tr-posts__star-rating .fa-star {
+  margin-left: -3px;
+}
+
+.rmp-tr-posts__star-rating .star-highlight {
+  color: #FF912C;
+}
+
+.rmp-tr-posts__star-rating .star-half-highlight {
+  color: #FF912C;
+  background: -webkit-linear-gradient(left, #FF912C 50%,#ccc 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rmp-tr-posts__img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.rmp-tr-posts__link {
+  display: block;
+  text-align: center;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}

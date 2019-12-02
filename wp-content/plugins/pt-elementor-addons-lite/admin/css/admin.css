@@ -1,0 +1,284 @@
+/**
+ *=============================================================
+ * Essential Addons Elementor Admin Settings Page Styles
+ *=============================================================
+ */
+
+/* General Style */
+
+.pt-header-bar {
+	height: auto;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid rgba( 0,0,0,0.1 );
+	-webkit-display: flex;
+	display: flex;
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.pt-header-bar .title {
+	font-size: 28px;
+	font-weight: 600;
+	margin: 0px;
+	line-height: 1;
+}
+
+.pt-header-left,
+.pt-header-right {
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+}
+.pt-header-right {
+	text-align: right;
+}
+.pt-settings-tabs {
+	padding-top: 15px;
+}
+
+.pt-settings-tab h4 {
+	font-size: 22px;
+}
+
+.pt-settings-tab p {
+	font-size: 14px;
+}
+
+.pt-settings-tabs ul {
+	width: 100%;
+	height: auto;
+	margin: 25px 0px 20px 0px;
+}
+.pt-settings-tabs ul li {
+	display: inline-block;
+}
+.pt-settings-tabs ul li a {
+	padding: 15px 20px;
+	background: #ECF0F1;
+	color: #646464;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 1px solid rgba( 0,0,0,0.1 );
+	border-bottom: none;
+}
+.pt-settings-tab {
+	background: #fff;
+	padding: 15px 25px;
+	margin-top: -8px;
+	border: 1px solid rgba( 0,0,0,0.1 );
+	border-top: none;
+	position: relative;
+}
+.pt-settings-tabs ul li.ui-tabs-active a {
+	background: #fff;
+	outline: none;
+	box-shadow: none;
+	color: #343434;
+}
+p.pt-el-title {
+	font-size: 15px;
+	font-weight: 600;
+	color: #333;
+	margin: .5em;
+}
+.pt-settings-tab p.pt-elements-control-notice {
+	color: #42418e;
+	font-size: 16px;
+	border: 1px solid #42418e;
+	padding: 10px;
+	text-align: center;
+	display: block;
+}
+.pt-form-control {
+	width: 100%;
+}
+textarea.pt-form-control {
+	padding: 15px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #5d5d5d;
+}
+.row {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+	padding: 15px 0px;
+}
+.col-full {
+	width: 100%;
+	height: auto;
+}
+.col-half {
+	width: 49%;
+	height: auto;
+}
+.col-one-third {
+	width: 32%;
+	height: auto;
+}
+
+/* Eael Tab Toggles */
+.pt-settings-tab {
+	display: none;
+}
+.pt-settings-tab.active {
+	display: block;
+}
+.pt-tabs li a.active {
+	background-color: #fff;
+}
+/* Footer Style */
+
+.pt-settings-footer {
+	padding: 20px 25px 15px 25px;
+	background: #fff;
+	margin-top: 10px;
+	border: 1px solid rgba( 0,0,0,0.1 );
+}
+.pt-settings-footer .submit {
+	padding: 0px;
+}
+.pt-settings-footer p.submit {
+	margin-top: 0px;
+}
+
+.pt-settings-tab img {
+	max-width: 100%;
+}
+.button.pt-btn {
+	background-color: #0099CC;
+	color: #fff;
+	padding: 6px 20px;
+	border: none;
+	box-shadow: none;
+	font-size: 14px;
+	height: auto;
+	text-transform: uppercase;
+	text-shadow: none;
+	letter-spacing: .05em;
+}
+
+.button.pt-btn:hover, .button.pt-btn:focus {
+	background-color: #1E96F1;
+	color: #fff;
+}
+
+.pt-save-btn-wrap {
+	margin: 30px 0 20px;
+}
+
+.pt-save-btn-wrap .pt-btn {
+	background-color: #3CCD94;
+	color: #fff;
+	padding: 10px 20px
+}
+.pt-save-btn-wrap .pt-btn:hover, .pt-save-btn-wrap .pt-btn:focus {
+	background-color: #02CC7B;
+	color: #fff;
+}
+
+.pt-btn.pt-demo-btn {
+	background-color: #42418e;
+	color: #fff;
+}
+.pt-btn.pt-demo-btn:hover, .pt-btn.pt-demo-btn:focus {
+	background-color: #FF0188;
+	color: #fff;
+}
+
+
+.pt-btn.pt-license-btn {
+	background-color: #0dc9c3;
+}
+.pt-btn.pt-license-btn:hover, .pt-btn.pt-license-btn:focus {
+	background-color: #08d1ca;
+}
+.pt-btn.pt-demo-btn, .pt-btn.pt-license-btn, .pt-btn.pt-review-btn {
+	padding: 10px;
+	display: block;
+	max-width: 250px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.premium-elements-title {
+	margin: 50px 0 30px;
+}
+
+.premium-elements-title img {
+	width: 75px;
+	float: left;
+}
+
+.premium-elements-title .section-title {
+	color: #157EFB;
+	margin: 35px 5px 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+	border-bottom: 6px double #157EFB;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+.go-premium .pt-btn.pt-license-btn {
+	margin-top: 30px;
+}
+
+.go-premium img {
+	width: 100%;
+	max-width: 400px;
+	display: block;
+	float: right;
+}
+.pt-notice {
+	background-color: #F7F6D4;
+	padding: 10px 15px;
+	border-radius: 5px;
+	box-shadow: 0 0 15px 0 rgba(0,0,0, .15);
+	max-width: 90%;
+	color: #9A7223;
+}
+
+.pt-notice h5 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.premium-elements-title {
+	margin: 50px 0 30px;
+}
+
+.premium-elements-title img {
+	width: 75px;
+	float: left;
+}
+
+.premium-elements-title .section-title {
+	color: #157EFB;
+	margin: 35px 5px 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+	border-bottom: 6px double #157EFB;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+.go-premium .eael-btn.eael-license-btn {
+	margin-top: 30px;
+}
+
+.go-premium img {
+	width: 100%;
+	max-width: 400px;
+	display: block;
+	float: right;
+}
